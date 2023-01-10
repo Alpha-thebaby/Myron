@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "myron",
+  "version": "${version}",
+  "name": "Myron Updated",
+  "description": "An OBJ model loader for the fabric ecosystem",
+  "authors": [
+    "Qboi123",
+    "Haven King",
+    "abused_master"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/myron/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+      "com.ultreon.mods.myron.impl.client.Myron"
+    ]
+  },
+  "mixins": [
+    "myron.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": ">=0.58.0+1.19.1",
+    "minecraft": ">=1.19.1"
+  },
+  "breaks": {
+    "foml": "*"
+  },
+  "accessWidener": "myron.accesswidener"
+}
